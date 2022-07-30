@@ -120,8 +120,8 @@ class sm3:
 
 
 if __name__=='__main__':
-    # message='abc'
-    message='abcd'*16
+    message='abc'
+    # message='abcd'*16
 
     print(sm3(message).label)
 
